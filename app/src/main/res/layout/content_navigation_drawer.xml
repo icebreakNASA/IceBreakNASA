@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.icebreak.adriatikgashi.icebreak.NavigationDrawerActivity"
+    tools:showIn="@layout/app_bar_navigation_drawer">
+
+    <VideoView android:id="@+id/videoViewRelative"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true">
+    </VideoView>
+
+    <ImageView
+        android:layout_width="245sp"
+        android:layout_height="220sp"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView3"
+        android:background="@mipmap/ic_buttonicebreak"
+        android:layout_marginBottom="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/imageView4" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="250dp"
+        android:id="@+id/imageView4"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/lineicebreaker1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView5"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="264dp"
+        android:background="@mipmap/ic_buttonicebreak"
+         />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView6"
+        android:layout_marginLeft="230sp"
+        android:layout_marginTop="340dp"
+        android:background="@mipmap/ic_buttonicebreak"
+          />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Blizzard"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:id="@+id/textView"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="-35dp"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_alignStart="@+id/imageView6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ice"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:id="@+id/textView2"
+        android:layout_marginRight="-35dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imageView5"
+        android:layout_toStartOf="@+id/imageView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Earthquake"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="0dp"
+        android:id="@+id/textView3"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignStart="@+id/textView" />
+
+
+</RelativeLayout>

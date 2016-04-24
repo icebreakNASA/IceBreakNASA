@@ -1,0 +1,39 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+android:oneshot="true" >
+<item android:drawable="@drawable/a" android:duration="50" />
+<item android:drawable="@drawable/b" android:duration="50" />
+<item android:drawable="@drawable/c" android:duration="50" />
+<item android:drawable="@drawable/d" android:duration="50" />
+<item android:drawable="@drawable/e" android:duration="50" />
+<item android:drawable="@drawable/f" android:duration="50" />
+<item android:drawable="@drawable/g" android:duration="50" />
+<item android:drawable="@drawable/h" android:duration="50" />
+<item android:drawable="@drawable/i" android:duration="50" />
+<item android:drawable="@drawable/j" android:duration="50" />
+<item android:drawable="@drawable/k" android:duration="50" />
+<item android:drawable="@drawable/l" android:duration="50" />
+<item android:drawable="@drawable/m" android:duration="50" />
+<item android:drawable="@drawable/n" android:duration="50" />
+<item android:drawable="@drawable/o" android:duration="50" />
+<item android:drawable="@drawable/p" android:duration="50" />
+<item android:drawable="@drawable/q" android:duration="50" />
+<item android:drawable="@drawable/r" android:duration="50" />
+<item android:drawable="@drawable/s" android:duration="50" />
+<item android:drawable="@drawable/t" android:duration="50" />
+<item android:drawable="@drawable/u" android:duration="50" />
+<item android:drawable="@drawable/v" android:duration="50" />
+<item android:drawable="@drawable/x" android:duration="50" />
+<item android:drawable="@drawable/y" android:duration="50" />
+<item android:drawable="@drawable/z" android:duration="50" />
+<item android:drawable="@drawable/aa" android:duration="50" />
+<item android:drawable="@drawable/ab" android:duration="50" />
+<item android:drawable="@drawable/ac" android:duration="50" />
+<item android:drawable="@drawable/ad" android:duration="50" />
+<item android:drawable="@drawable/ae" android:duration="50" />
+<item android:drawable="@drawable/af" android:duration="50" />
+<item android:drawable="@drawable/ag" android:duration="50" />
+<item android:drawable="@drawable/ah" android:duration="50" />
+<item android:drawable="@drawable/ai" android:duration="50" />
+<item android:drawable="@drawable/a" android:duration="50" />
+
+</animation-list>
