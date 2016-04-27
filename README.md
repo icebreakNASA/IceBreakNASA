@@ -1,2 +1,2 @@
-# IceBreakNASA
-IceBreak - Nasa Space Apps Challeng Prishtina
+# Cellerity (ex IceBreak)
+Cellerity - Nasa Space Apps Challenge Prishtina
